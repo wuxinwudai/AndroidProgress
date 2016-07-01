@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wuxinwudai.ap.sample.MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout style="@style/horizontal_match_wrap">
+            <TextView
+                style="@style/label"
+                android:text="ArcProgress"/>
+            <com.wuxinwudai.ap.ArcProgress
+                android:id="@+id/arcp"
+                style="@style/wrap_wrap"
+                android:padding="10dp"
+                app:Progress="10"
+                app:ArcAngle="270"
+                app:Title="Memory"/>
+        </LinearLayout>
+        <LinearLayout style="@style/horizontal_match_wrap">
+            <TextView
+                style="@style/label"
+                android:text="SpinProgress"/>
+            <com.wuxinwudai.ap.SpinProgress
+                style="@style/wrap_wrap"
+                android:padding="10dp"/>
+        </LinearLayout>
+
+        <LinearLayout style="@style/horizontal_match_wrap">
+            <TextView
+                style="@style/label"
+                android:text="ChangeColorSpinProgress"/>
+            <com.wuxinwudai.ap.ChangeColorSpinProgress
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:ProgressCircleRadius="50dp"
+                app:ProgressBarWidth="2dp"/>
+        </LinearLayout>
+
+        <LinearLayout style="@style/horizontal_match_wrap">
+            <TextView
+                style="@style/label"
+                android:text="HorizontalProgress"/>
+            <com.wuxinwudai.ap.HorizontalProgress
+                android:id="@+id/hp"
+                android:layout_height="60dp"
+                android:layout_width="200dp"
+                android:padding="10dp"
+                app:ProgressCompletedColor="@color/BarColor"
+                app:ProgressUnCompletedColor="@color/RimColor"
+                />
+        </LinearLayout>
+        <LinearLayout style="@style/horizontal_match_wrap">
+            <TextView
+                style="@style/label"
+                android:text="RingProgress"/>
+            <com.wuxinwudai.ap.RingProgress
+                android:id="@+id/cp"
+                style="@style/wrap_wrap"
+                app:Progress="0"
+                app:ProgressRingWidth="10dp"
+                app:ProgressCircleRadius="80dp"
+                />
+        </LinearLayout>
+        <LinearLayout style="@style/horizontal_match_wrap">
+            <TextView
+                style="@style/label"
+                android:text="RoundProgress"/>
+            <com.wuxinwudai.ap.RoundProgress
+                android:id="@+id/rp"
+                style="@style/wrap_wrap"
+
+                app:Progress="20"
+                app:ProgressCircleRadius="80dp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="ProgressCompletedColor" format="color"/>
+    <attr name="ProgressUnCompletedColor" format="color"/>
+    <attr name="ProgressCompletedHeight" format="dimension"/>
+    <attr name="ProgressUnCompletedHeight" format="dimension"/>
+    <attr name="ProgressTextColor" format="color"/>
+    <attr name="ProgressTextSize" format="dimension"/>
+    <attr name="ProgressTextOffset" format="dimension"/>
+    <attr name="ProgressSpinSpeed" format="float"/>
+    <attr name="ProgressSpinCycleTime" format="integer"/>
+    <attr name="ProgressBarColor" format="color"/>
+    <attr name="ProgressBarWidth" format="dimension"/>
+    <attr name="ProgressBarLength" format="integer"/>
+    <attr name="ProgressBarMaxLength" format="integer"/>
+    <attr name="ProgressRingColor" format="color"/>
+    <attr name="ProgressRingWidth" format="dimension"/>
+    <attr name="ProgressCircleRadius" format="dimension"/>
+    <attr name="ProgressBarColors" format="reference"/>
+    <attr name="Progress" format="integer"/>
+    <attr name="WaveStyle" format="boolean" />
+    <attr name="Title" format="string"/>
+    <attr name="TitleTextSize" format="dimension"/>
+    <attr name="TitleTextColor" format="color"/>
+    <attr name="ArcAngle" format="integer"/>
+
+    <declare-styleable name="HorizontalProgress">
+        <attr name="Progress"/>
+        <attr name="ProgressCompletedColor"/>
+        <attr name="ProgressUnCompletedColor"/>
+        <attr name="ProgressCompletedHeight"/>
+        <attr name="ProgressUnCompletedHeight"/>
+        <attr name="ProgressTextColor"/>
+        <attr name="ProgressTextSize"/>
+        <attr name="ProgressTextOffset"/>
+    </declare-styleable>
+
+    <declare-styleable name="SpinProgress">
+        <attr name="ProgressSpinCycleTime"/>
+        <attr name="ProgressSpinSpeed" />
+        <attr name="ProgressBarColor" />
+        <attr name="ProgressBarWidth" />
+        <attr name="ProgressBarLength"/>
+        <attr name="ProgressBarMaxLength"/>
+        <attr name="ProgressRingColor"/>
+        <attr name="ProgressRingWidth" />
+        <attr name="ProgressCircleRadius"/>
+    </declare-styleable>
+
+    <declare-styleable name="ChangeColorSpinProgress">
+        <attr name="ProgressSpinCycleTime"/>
+        <attr name="ProgressSpinSpeed" />
+        <attr name="ProgressBarWidth" />
+        <attr name="ProgressBarLength"/>
+        <attr name="ProgressBarMaxLength"/>
+        <attr name="ProgressRingColor"/>
+        <attr name="ProgressRingWidth" />
+        <attr name="ProgressCircleRadius"/>
+        <attr name="ProgressBarColors"/>
+    </declare-styleable>
+
+    <declare-styleable name="RingProgress">
+        <attr name="Progress"/>
+        <attr name="ProgressTextColor"/>
+        <attr name="ProgressTextSize"/>
+        <attr name="ProgressBarColor"/>
+        <attr name="ProgressBarWidth"/>
+        <attr name="ProgressRingColor"/>
+        <attr name="ProgressRingWidth"/>
+        <attr name="ProgressCircleRadius"/>
+    </declare-styleable>
+
+    <declare-styleable name="RoundProgress">
+        <attr name="Progress"/>
+        <attr name="ProgressTextColor"/>
+        <attr name="ProgressTextSize"/>
+        <attr name="ProgressBarColor"/>
+        <attr name="ProgressRingColor"/>
+        <attr name="ProgressRingWidth"/>
+        <attr name="ProgressCircleRadius"/>
+    </declare-styleable>
+
+    <declare-styleable name="ArcProgress">
+        <attr name="Progress"/>
+        <attr name="ProgressTextColor"/>
+        <attr name="ProgressTextSize"/>
+        <attr name="ProgressBarColor"/>
+        <attr name="ProgressRingColor"/>
+        <attr name="ProgressRingWidth"/>
+        <attr name="ProgressCircleRadius"/>
+        <attr name="Title"/>
+        <attr name="TitleTextSize" />
+        <attr name="TitleTextColor" />
+        <attr name="ArcAngle" />
+    </declare-styleable>
+</resources>
